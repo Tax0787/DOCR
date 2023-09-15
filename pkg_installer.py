@@ -1,6 +1,7 @@
 from os import system as s
 from os import mkdir
 from os import chdir as cd
+from sys import argv as a
 
 
 def just_install(pkg):
@@ -34,7 +35,7 @@ def download_pkg(pkg):
 
 
 def main():
-  from sys import argv as a
+  print(a)
   if len(a) > 1:
     cmds = a[1]
     if cmds == 'downloads':
@@ -48,3 +49,6 @@ def main():
       print(f'wrong parameter {cmds}, it must be downloads or offline or not')
   else:
     pkgs()
+
+
+if __name__ == "__main__": main()
