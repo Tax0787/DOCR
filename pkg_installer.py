@@ -41,7 +41,7 @@ def pkgs(func=pkg_install, ver='', prints=False):
 
 
 def download_pkg(pkg, ver='', prints=False):
-  s(f'python -m pip download {pkg}', prints=prints)
+  s(f'python -m pip{ver} download {pkg}', prints=prints)
 
 
 def main_with_option(ver, debugs):
@@ -61,7 +61,7 @@ def main_with_option(ver, debugs):
 
 
 def main():
-  main_with_option('3', True)
+  main_with_option('', False)
 
 
 if __name__ == "__main__": main()
