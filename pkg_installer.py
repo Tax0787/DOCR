@@ -7,7 +7,7 @@ from sys import argv as a
 def s(x, prints=False):
   if prints:
     print(f'\t#{x}')
-  s(x)
+  s2(x)
 
 
 def just_install(pkg, ver='', prints=False):
@@ -44,20 +44,20 @@ def download_pkg(pkg, ver='', prints=False):
   s(f'python -m pip download {pkg}', prints=prints)
 
 
-def main_with_option(ver, debug):
+def main_with_option(ver, debugs):
   if len(a) > 1:
     cmds = a[1]
     if cmds == 'downloads':
       mkdir('pkgs')
       cd('pkgs')
-      pkgs(func=download_pkg, ver=ver, prints=debug)
+      pkgs(func=download_pkg, ver=ver, prints=debugs)
     elif cmds == 'offline':
       cd('pkgs')
-      pkgs(func=offline_install, ver=ver, prints=debug)
+      pkgs(func=offline_install, ver=ver, prints=debugs)
     else:
       print(f'wrong parameter {cmds}, it must be downloads or offline or not')
   else:
-    pkgs(ver=ver, prints=debug)
+    pkgs(ver=ver, prints=debugs)
 
 
 def main():
