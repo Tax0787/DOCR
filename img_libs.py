@@ -5,10 +5,11 @@ class ImgLoad:
   lib = None
 
   def __init__(self, f):
-    self.__value == lib.open(f)
+    self.lib = self.Lib()
+    self.__value = self.lib.open(f)
 
   def __call__(self):
-    return lib.metrix(self)
+    return self.lib.metrix(self)
 
   @property
   def value(self):
@@ -17,6 +18,6 @@ class ImgLoad:
 
 class ImgLoader(ImgLoad):
 
-  class lib:
+  class Lib:
     open = importer.img.open
     metrix = importer.metrix
