@@ -1,4 +1,2 @@
-from mains import main
-
-if __name__ == "__main__":
-  main()
+from os import system as s
+s('python img2txt/main.py')

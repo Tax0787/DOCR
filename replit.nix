@@ -1,5 +1,6 @@
 { pkgs }: {
-  deps = [pkgs.wget
+  deps = [pkgs.vim
+pkgs.wget
 
   ];
 }
