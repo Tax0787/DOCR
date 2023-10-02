@@ -1,4 +1,4 @@
-# DOCR
+# [DOCR](https://github.com/Tax0787/DOCR)
 reality Document text OCR drive (usually use programming)
 
 ## Parts
@@ -49,3 +49,4 @@ use as a fork. It's a template repo
 ### [repl.it](http://repl.it/@tax07/DOCR)
 
 ### [GithubPages(github.io)](https://tax0787.github.io/DOCR/)
+### [GithubRepo](https://github.com/Tax0787/DOCR)
