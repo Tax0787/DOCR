@@ -4,6 +4,13 @@ from option import tesseract_path as tesseract_path_option
 tesseract_path = tesseract_path_option
 
 
+class LikeModule:
+  __getattr__ = lambda self, x: self.__dict__[x]
+
+  def __setattr__(self, x, y):
+    self.__dict__[x] = y
+
+
 class ImgLoad:
   lib = None
 
@@ -12,7 +19,7 @@ class ImgLoad:
     self.__value = self.lib.open(f)
 
   def __call__(self):
-    return self.lib.metrix(self)
+    return self.lib.metrix(self.value)
 
   @property
   def value(self):
@@ -21,6 +28,8 @@ class ImgLoad:
 
 class ImgLoader(ImgLoad):
 
-  class Lib:
-    open = importer.img.open
-    metrix = importer.metrix
+  def Lib(self):
+    ret = LikeModule()
+    ret.open = importer.img.open
+    ret.metrix = importer.metrix
+    return ret
