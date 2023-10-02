@@ -53,3 +53,8 @@ use as a fork. It's a template repo
 
 ### [GithubPages(github.io)](https://tax0787.github.io/DOCR/)
 ### [GithubRepo](https://github.com/Tax0787/DOCR)
+
+### Owner
+
+#### [OwnerSite](https://tax0787.github.io)
+#### [OwnerPage](https://github.com/Tax0787)
