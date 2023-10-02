@@ -1,5 +1,5 @@
 # img2txt2docr
-part of [DOCR-FW](https://github.com/Tax0787/DOCR/DOCR)
+part of [DOCR-FW](https://github.com/Tax0787/DOCR/tree/main/DOCR)
 > ## [DOCR-FW-github-page](https://Tax0787.github.io/DOCR/DOCR)
 
 ## [What is it?] (make [img2docr](https://github.com/Tax0787/DOCR/tree/main/DOCR/img2txt2docr) by [img2txt](https://github.com/Tax0787/DOCR/tree/main/DOCR/README.md#Parts))

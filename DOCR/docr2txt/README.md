@@ -7,6 +7,6 @@ just strated.
 
 ### NextUpdate
 
-> make first **files** ... Not Started
-> debug                ... Not Started
-> PRE-RELEASE          ... Not Started
+1. make first **files** ... Not Started
+2. debug                ... Not Started
+3. PRE-RELEASE          ... Not Started
