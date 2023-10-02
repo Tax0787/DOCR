@@ -1,6 +1,14 @@
 # DOCR
 reality Document text OCR drive (usually use programming)
 
+## Parts
+
+### img2txt
+make img 2 txt
+> this is OCR
+>> use [google-tesseract](.#tesseract-by-google)
+>>> use [pytesseract](.#pytesseract-by-Matthias-A-Lee)
+
 ## HOW 2 USE?
 use as a fork. It's a template repo 
 
@@ -35,3 +43,15 @@ python tesseract_installer.py
 ### about `test_script.sh`
 
 test script, same working file : `main.py` (repo root dir's main.py)
+
+## sublibs
+
+## tesseract by google
+
+[github](https://github.com/tesseract-ocr/tesseract)
+[github.io docs](https://tesseract-ocr.github.io/)
+
+## pytesseract by Matthias A Lee
+
+[PyPI (pip)](https://pypi.org/project/pytesseract/)
+[github](https://github.com/madmaze/pytesseract)
