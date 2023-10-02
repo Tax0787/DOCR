@@ -6,8 +6,8 @@ reality Document text OCR drive (usually use programming)
 ### img2txt
 make img 2 txt
 > this is OCR
->> use [google-tesseract](.#tesseract-by-google)
->>> use [pytesseract](.#pytesseract-by-Matthias-A-Lee)
+>> use [google-tesseract](https://github.com/Tax0787/DOCR#tesseract-by-google)
+>>> use [pytesseract](https://github.com/Tax0787/DOCR#pytesseract-by-matthias-a-lee)
 
 ## HOW 2 USE?
 use as a fork. It's a template repo 
