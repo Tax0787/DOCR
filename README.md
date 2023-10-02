@@ -24,12 +24,19 @@ use as a fork. It's a template repo
 
 ## sublibs
 
-## tesseract by google
+### tesseract by google
 
 [github](https://github.com/tesseract-ocr/tesseract)
 [github.io docs](https://tesseract-ocr.github.io/)
 
-## pytesseract by Matthias A Lee
+### pytesseract by Matthias A Lee
 
 [PyPI (pip)](https://pypi.org/project/pytesseract/)
 [github](https://github.com/madmaze/pytesseract)
+
+## release
+
+### [see releases details](https://github.com/Tax0787/DOCR/releases)
+### [see releases (by) tages](https://github.com/Tax0787/DOCR/tags)
+
+## [repl.it](http://repl.it/@tax07/DOCR)
