@@ -1,1 +1,3 @@
 https://mokeya.tistory.com/146
+https://yunwoong.tistory.com/51
+https://pypi.org/project/pytesseract
