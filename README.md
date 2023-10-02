@@ -8,16 +8,19 @@ make img 2 txt
 > this is OCR
 >> use [google-tesseract](https://github.com/Tax0787/DOCR#tesseract-by-google)
 >>> use [pytesseract](https://github.com/Tax0787/DOCR#pytesseract-by-matthias-a-lee)
+>>>> #### [github-page](https://Tax0787.github.io/DOCR/img2txt)
 
 ### [Basic**Libs**](https://github.com/Tax0787/DOCR/tree/main/BasicLibs)
 basic tool that use DOCR
 > support default 'sub-help-format'
 >> DOCR programmed
+>>> #### [github-page](https://Tax0787.github.io/DOCR/BasicLibs)
 
 ### [DOCR (BasicFW : DOCR-FW)](https://github.com/Tax0787/DOCR/tree/main/DOCR)
 DOCR's main part
 > use img2txt to make in-real paper to `*.docr`file or `*.txt`file
 >> programmed by python on replit (usually)
+>>> #### [github-page](https://Tax0787.github.io/DOCR/DOCR)
 
 ## HOW 2 USE?
 use as a fork. It's a template repo 

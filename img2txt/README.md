@@ -1,5 +1,6 @@
 # img2txt
 OCR-part of [DOCR](https://github.com/Tax0787/DOCR)
+> ## [DOCR-github-page](https://Tax0787.github.io/DOCR)
 
 ## Setup
 

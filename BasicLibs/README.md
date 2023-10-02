@@ -1,4 +1,5 @@
-# BasicDOCRLibs
+# Basic[DOCR](https://github.com/Tax0787/DOCR)Libs
+> ## [DOCR-github-page](https://Tax0787.github.io/DOCR)
 
 ## Update
 
