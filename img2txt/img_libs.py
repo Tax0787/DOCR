@@ -1,4 +1,7 @@
 import importer
+from option import tesseract_path as tesseract_path_option
+
+tesseract_path = tesseract_path_option
 
 
 class ImgLoad:
