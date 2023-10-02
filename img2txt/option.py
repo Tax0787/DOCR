@@ -1,9 +1,13 @@
 from os.path import isfile as i
-
+from os import chdir as cd
+from os import getcwd as pwd
+from os.path import dirname
 
 class NoTesseractOCRError:
   pass
 
+root = pwd()
+cd(dirname(__file__))
 
 if i('.tesseract_path.txt'):
   with open('.tesseract_path.txt') as f:
@@ -19,3 +23,5 @@ elif i('.not_dev'):
     mod.core()
 else:
   raise NoTesseractOCRError("tesseractOCR wasn't installed")
+
+cd(root)
