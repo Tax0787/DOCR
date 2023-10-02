@@ -34,9 +34,18 @@ use as a fork. It's a template repo
 [PyPI (pip)](https://pypi.org/project/pytesseract/)
 [github](https://github.com/madmaze/pytesseract)
 
-## release
+## GithubMenu
 
-### [see releases details](https://github.com/Tax0787/DOCR/releases)
-### [see releases (by) tages](https://github.com/Tax0787/DOCR/tags)
+### release
 
-## [repl.it](http://repl.it/@tax07/DOCR)
+#### [see releases details](https://github.com/Tax0787/DOCR/releases)
+#### [see releases (by) tages](https://github.com/Tax0787/DOCR/tags)
+
+### [issue](https://github.com/Tax0787/DOCR/issues)
+### [PR](https://github.com/Tax0787/DOCR/pulls)
+### [discussions](https://github.com/Tax0787/DOCR/discussions)
+### [wiki](https://github.com/Tax0787/DOCR/wiki)
+
+### [repl.it](http://repl.it/@tax07/DOCR)
+
+### [GithubPages(github.io)](https://tax0787.github.io/DOCR/)
